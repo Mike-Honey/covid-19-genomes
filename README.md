@@ -3,7 +3,7 @@ Projects on topic of COVID-19 genomic sequencing - mostly DataViz
 
 **Reference:**
 
-International data on COVID-19 genomic sequencing data from the [GISAID project](https://www.gisaid.org), via: [outbreak.info](https://outbreak.info/location-reports?loc=AUS&selected=S%3AE484K&selected=B.1.1.7&selected=B.1.351&selected=B.1.617.2&selected=P.1&selected=B.1.427&selected=B.1.429&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=P.2) and [nextstrain.org](https://nextstrain.org/ncov/global).
+International data on COVID-19 genomic sequencing data from the [GISAID Initiative](https://www.gisaid.org), via: [outbreak.info](https://outbreak.info/location-reports?loc=AUS&selected=S%3AE484K&selected=B.1.1.7&selected=B.1.351&selected=B.1.617.2&selected=P.1&selected=B.1.427&selected=B.1.429&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=P.2) and [nextstrain.org](https://nextstrain.org/ncov/global).
 
 Following the visualisation style of [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20).
 
