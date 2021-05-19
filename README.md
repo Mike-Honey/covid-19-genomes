@@ -1,5 +1,5 @@
 # covid-19-genomes
-Projects on COVID-19 topic of genomic sequencing - mostly DataViz
+Projects on topic of COVID-19 genomic sequencing - mostly DataViz
 
 **Reference:**
 
