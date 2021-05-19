@@ -15,7 +15,7 @@ In this project, the data from those sources is presented in an interactive data
 
 The initial focus is on Australia and New Zealand. They are not often reported on, but have relatively high proportions of genomic sequences vs their COVID-19 cases.
 
-Data for any country could be included - just download it from the outbreak.info page for the country (**Tracked lineages over time** section) in tsv format. 
+Data for any country could be included - just download it from the outbreak.info page for the country (**Tracked lineages over time** section) in tsv format and refresh the PBIX file using Power BI Desktop. 
 
 The data to translate country codes into names is read from [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
