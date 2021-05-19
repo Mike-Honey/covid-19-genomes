@@ -3,13 +3,13 @@ Projects on topic of COVID-19 genomic sequencing - mostly DataViz
 
 **Reference:**
 
-International data on COVID-19 genomic sequencing data from the [GISAID project](https://www.gisaid.org), via: [outbreak.info](https://outbreak.info/location-reports?loc=AUS&selected=S%3AE484K&selected=B.1.1.7&selected=B.1.351&selected=B.1.617.2&selected=P.1&selected=B.1.427&selected=B.1.429&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=P.2)
+International data on COVID-19 genomic sequencing data from the [GISAID project](https://www.gisaid.org), via: [outbreak.info](https://outbreak.info/location-reports?loc=AUS&selected=S%3AE484K&selected=B.1.1.7&selected=B.1.351&selected=B.1.617.2&selected=P.1&selected=B.1.427&selected=B.1.429&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=P.2) and [nextstrain.org](https://nextstrain.org/ncov/global).
 
 Following the visualisation style of [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20).
 
 **Summary**
 
-The outbreak.info site presents data on genomic sequencing by country, with limited interactivity.
+The outbreak.info and nextstrain sites presents data on genomic sequencing by country, with limited interactivity.
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.  The original data is quite noisy with many lineages presented together, over a long timescale. IMO the stacked area chart is not  ideal as it tends to obscure sharp rises in recent data (e.g. B.1.617.2 in Australia, April-May 2021).
 
