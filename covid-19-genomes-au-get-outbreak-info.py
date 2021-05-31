@@ -24,23 +24,21 @@ def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
             Timeout -= 1
     raise RuntimeError(f"Page loading timeout") 
 
-def processWebPage(webpageURL, datadir, driver, eachRegion):
+def processWebPage(eachURL, datadir, driver, eachCountry):
 
-    print (str(datetime.datetime.now()) + ' Processing:' + eachRegion)
-    for p in Path(datadir).glob('nextstrain*' + eachRegion + '*.tsv'):
+    print (str(datetime.datetime.now()) + ' Processing:' + eachCountry)
+    driver.get(eachURL)
+    for p in Path(datadir).glob('outbreakinfo_mutation_report_data_' + eachCountry + '.tsv'):
         p.unlink()
-    driver.get(webpageURL + eachRegion)
-    element = FindElem(driver, By.CSS_SELECTOR, "button:nth-child(3) > span")
+    element = FindElem(driver, By.CSS_SELECTOR, "#location-report-prevalence #download-btn small")
     element.click()
-    element = FindElem(driver, By.CSS_SELECTOR, "button:nth-child(3) > span")
-    actions = ActionChains(driver)
-    actions.move_to_element(element).perform()
-    element = FindElem(driver, By.CSS_SELECTOR, "body")
-    actions = ActionChains(driver)
-    actions.move_to_element(element).perform()
-    element = FindElem(driver, By.NAME, "Metadata (TSV)")
+    element = FindElem(driver, By.CSS_SELECTOR, ".text-uppercase:nth-child(8) > .focustext")
     element.click()
     time.sleep(5)
+    for p in Path(datadir).glob('outbreakinfo_mutation_report_data_20*.tsv'):
+        p.rename(datadir + 'outbreakinfo_mutation_report_data_' + eachCountry + '.tsv')
+    for p in Path(datadir).glob('outbreakinfo_mutation_report_data_20*.txt'):
+        p.unlink()
 
 
 def main():
@@ -48,8 +46,8 @@ def main():
     Main - program execute
     """
     print (str(datetime.datetime.now()) + ' Starting ...')
-    webpageURL = 'https://nextstrain.org/ncov/'
-    webpageRegions = ['africa', 'asia', 'europe' , 'north-america', 'oceania', 'south-america']
+    webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=B.1.1.7&selected=B.1.351&selected=B.1.617.2&selected=P.1&selected=B.1.427&selected=B.1.429&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=P.2'
+    webpageCountries = ['AUS', 'NZL', 'SGP']
     datadir = 'C:/Dev/covid-19-genomes/'
 
     chromeOptions = webdriver.ChromeOptions()
@@ -61,8 +59,9 @@ def main():
     chromedriver = "C:/Dev/ChromeDriver/chromedriver.exe"
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
 
-    for eachRegion in webpageRegions:
-        processWebPage(webpageURL, datadir, driver, eachRegion)
+    for eachCountry in webpageCountries:
+        eachURL = str.replace(webpageURL, 'loc=ZZZ' , 'loc=' + eachCountry )
+        processWebPage(eachURL, datadir, driver, eachCountry)
 
     driver.quit()
 
