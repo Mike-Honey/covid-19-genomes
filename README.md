@@ -19,6 +19,9 @@ Data for any country could be included - just download it from the outbreak.info
 
 The data to translate country codes into names is read from [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
+A new source I've recently started collecting is [cdgn.org.au](https://www.cdgn.org.au/variants-of-concern) (Australia only). The data seems to only be updated weekly, but as most of the other sources available seem to lag by a week or more, this may be the best dataset for the latest picture. So far I've only gathered the last few weeks and a handful of earlier snapshots from archive.org. If anyone can help fill in the blanks it would be good.
+
+
 [Link to interactive DataViz - Nextstrain.org PANGO Lineages](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
