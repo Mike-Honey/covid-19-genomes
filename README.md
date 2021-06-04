@@ -19,10 +19,17 @@ Data for any country could be included - just download it from the outbreak.info
 
 The data to translate country codes into names is read from [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[Link to interactive DataViz - Nextstrain.org PANGO Lineages](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection)
 
+[Link to interactive DataViz - Nextstrain.org Emerging Lineages](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20emerging%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
+
+[Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%cdgn%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
 
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
