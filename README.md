@@ -29,7 +29,7 @@ The data to translate country codes into names is read from [Wikipedia](https://
 
 [Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%cdgn%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20cdgn%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiNDgwNzc4ODMtNTk1Ny00MmE2LTgxOWEtYzY1MzZjYWFlMWU5IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
 
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
