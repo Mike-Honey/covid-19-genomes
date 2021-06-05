@@ -28,6 +28,7 @@ def processWebPage(eachURL, datadir, driver, eachCountry):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachCountry)
     driver.get(eachURL)
+    time.sleep(5)
     for p in Path(datadir).glob('outbreakinfo_mutation_report_data_' + eachCountry + '.tsv'):
         p.unlink()
     element = FindElem(driver, By.CSS_SELECTOR, "#location-report-prevalence #download-btn small")
