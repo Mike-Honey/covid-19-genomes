@@ -1,5 +1,6 @@
 # covid-19-genomes
-Projects on topic of COVID-19 genomic sequencing - mostly DataViz. Showing Australia by default, any country/continent available for selection. 
+Projects on topic of COVID-19 genomic sequencing - mostly DataViz. 
+Showing Australia by default, other countries available for selection. 
 
 [Link to interactive DataViz - microreact.org](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
 
