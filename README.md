@@ -1,5 +1,9 @@
 # covid-19-genomes
-Projects on topic of COVID-19 genomic sequencing - mostly DataViz
+Projects on topic of COVID-19 genomic sequencing - mostly DataViz. Showing Australia by default, any country/continent available for selection. 
+
+[Link to interactive DataViz - microreact.org](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20microreact%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
 
 [Link to interactive DataViz - Nextstrain.org Emerging Lineages](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
 
@@ -9,17 +13,13 @@ Projects on topic of COVID-19 genomic sequencing - mostly DataViz
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20PANGO%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
 
-[Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20cdgn%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
-
-[Link to interactive DataViz - microreact.org](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20microreact%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
-
 [Link to interactive DataViz - outbreak.info](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection8e7ea6853e5ed0f5231f)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20outbreak%20info%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection8e7ea6853e5ed0f5231f)
+
+[Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20cdgn%20AUS.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
 
 **Reference:**
 
