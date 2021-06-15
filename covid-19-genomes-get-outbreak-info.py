@@ -28,7 +28,7 @@ def processWebPage(eachURL, datadir, driver, eachCountry):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachCountry)
     driver.get(eachURL)
-    time.sleep(30)
+    time.sleep(15)
     for p in Path(datadir).glob('outbreakinfo_mutation_report_data_' + eachCountry + '.tsv'):
         p.unlink()
     element = FindElem(driver, By.CSS_SELECTOR, "#location-report-prevalence #download-btn small")
@@ -48,7 +48,7 @@ def main():
     """
     print (str(datetime.datetime.now()) + ' Starting ...')
     webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AY.1&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.3&selected=C.36.3&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
-    webpageCountries = ['AUS', 'CAN', 'GBR', 'NZL', 'ISR', 'SGP', 'USA']
+    webpageCountries = ['AUS', 'CAN', 'GBR', 'NZL', 'IDN', 'ISR', 'SGP', 'USA']
     datadir = 'C:/Dev/covid-19-genomes/'
 
     chromeOptions = webdriver.ChromeOptions()
