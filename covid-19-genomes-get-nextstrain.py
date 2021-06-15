@@ -30,6 +30,7 @@ def processWebPage(webpageURL, datadir, driver, eachRegion):
     for p in Path(datadir).glob('nextstrain*' + eachRegion + '*.tsv'):
         p.unlink()
     driver.get(webpageURL + eachRegion)
+    time.sleep(30)
     element = FindElem(driver, By.CSS_SELECTOR, "button:nth-child(3) > span")
     element.click()
     element = FindElem(driver, By.CSS_SELECTOR, "button:nth-child(3) > span")
