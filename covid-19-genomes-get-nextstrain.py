@@ -24,12 +24,13 @@ def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
             Timeout -= 1
     raise RuntimeError(f"Page loading timeout") 
 
-def processWebPage(webpageURL, datadir, driver, eachRegion):
+def processWebPage(webpageURL, datadir, driver, eachPath):
 
-    print (str(datetime.datetime.now()) + ' Processing:' + eachRegion)
-    for p in Path(datadir).glob('nextstrain*' + eachRegion + '*.tsv'):
+    print (str(datetime.datetime.now()) + ' Processing:' + eachPath)
+    eachPath_FileName = str.replace(str.replace(eachPath, '/', '_'), '@', '_' )
+    for p in Path(datadir).glob('nextstrain*' + eachPath_FileName + '*.tsv'):
         p.unlink()
-    driver.get(webpageURL + eachRegion)
+    driver.get(webpageURL + eachPath)
     time.sleep(30)
     element = FindElem(driver, By.CSS_SELECTOR, "button:nth-child(3) > span")
     element.click()
@@ -49,9 +50,6 @@ def main():
     Main - program execute
     """
     print (str(datetime.datetime.now()) + ' Starting ...')
-    webpageURL = 'https://nextstrain.org/ncov/'
-    webpageRegions = ['africa', 'asia', 'europe' , 'north-america', 'oceania', 'south-america']
-    datadir = 'C:/Dev/covid-19-genomes/'
 
     chromeOptions = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : r"C:\Dev\covid-19-genomes", 
@@ -62,8 +60,22 @@ def main():
     chromedriver = "C:/Dev/ChromeDriver/chromedriver.exe"
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
 
-    for eachRegion in webpageRegions:
-        processWebPage(webpageURL, datadir, driver, eachRegion)
+    webpageURL = 'https://nextstrain.org/'
+    webpagePaths = ['community/aicbu/ncov/srilanka',
+                    'community/CHRF-Genomics/ncovBangladesh@main',
+                    'community/fai-k/coni/Thailand',
+                    'community/kkosaki/ncov/japan',
+                    'community/quipupe/Nextstrain_Argentina', 
+                    'community/quipupe/Nextstrain_Chile', 
+                    'community/quipupe/Nextstrain_Ecuador', 
+                    'community/quipupe/Nextstrain_Peru', 
+                    'groups/neherlab/ncov/russia',
+                    'ncov/africa', 'ncov/asia', 'ncov/europe' , 'ncov/north-america', 'ncov/oceania', 'ncov/south-america']
+    # webpagePaths = ['community/aicbu/ncov/srilanka']
+    datadir = 'C:/Dev/covid-19-genomes/'
+
+    for eachPath in webpagePaths:
+        processWebPage(webpageURL, datadir, driver, eachPath)
 
     driver.quit()
 
