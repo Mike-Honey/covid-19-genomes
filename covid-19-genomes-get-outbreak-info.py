@@ -47,9 +47,6 @@ def main():
     Main - program execute
     """
     print (str(datetime.datetime.now()) + ' Starting ...')
-    webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AV.1&selected=AY.1&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.1.318&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.617.3&selected=C.36.3&selected=C.37&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
-    webpageCountries = ['AUS', 'CAN', 'GBR', 'IDN', 'ISR', 'JPN', 'NZL', 'PER', 'SGP', 'USA', 'ZAF']
-    datadir = 'C:/Dev/covid-19-genomes/'
 
     chromeOptions = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : r"C:\Dev\covid-19-genomes", 
@@ -59,6 +56,11 @@ def main():
     chromeOptions.add_experimental_option("prefs",prefs)
     chromedriver = "C:/Dev/ChromeDriver/chromedriver.exe"
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
+
+    datadir = 'C:/Dev/covid-19-genomes/'
+    webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AV.1&selected=AY.1&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.1.318&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.617.3&selected=C.36.3&selected=C.37&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
+    webpageCountries = ['ARG', 'AUS', 'CAN', 'CHL', 'GBR', 'IDN', 'ISR', 'JPN', 'NZL', 'PER', 'SGP', 'USA', 'ZAF']
+    # webpageCountries = ['ARG']
 
     for eachCountry in webpageCountries:
         eachURL = str.replace(webpageURL, 'loc=ZZZ' , 'loc=' + eachCountry )

@@ -105,8 +105,10 @@ def main():
                     'groups/neherlab/ncov/switzerland',
                     'groups/neherlab/ncov/turkey',
                     'groups/neherlab/ncov/united-kingdom',
-                    'ncov/africa', 'ncov/asia', 'ncov/europe' , 'ncov/north-america', 'ncov/oceania', 'ncov/south-america']
-    # webpagePaths = ['groups/neherlab/ncov/greece']
+                    'groups/spheres/ncov/USA',
+                    'ncov/africa', 'ncov/asia', 'ncov/europe' , 'ncov/north-america', 'ncov/oceania', 'ncov/south-america'
+                    ]
+    webpagePaths = ['groups/spheres/ncov/USA']
     datadir = 'C:/Dev/covid-19-genomes/'
 
     for eachPath in webpagePaths:
