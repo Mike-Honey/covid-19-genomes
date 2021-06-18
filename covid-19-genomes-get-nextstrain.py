@@ -62,6 +62,7 @@ def main():
 
     webpageURL = 'https://nextstrain.org/'
     webpagePaths = ['community/aicbu/ncov/srilanka',
+                    'community/alghoribi-lab/ncov/gcc',
                     'community/CHRF-Genomics/ncovBangladesh@main',
                     'community/fai-k/coni/Thailand',
                     'community/kkosaki/ncov/japan',
@@ -69,9 +70,43 @@ def main():
                     'community/quipupe/Nextstrain_Chile', 
                     'community/quipupe/Nextstrain_Ecuador', 
                     'community/quipupe/Nextstrain_Peru', 
+                    'groups/neherlab/ncov/austria',
+                    'groups/neherlab/ncov/belarus',
+                    'groups/neherlab/ncov/belgium',
+                    'groups/neherlab/ncov/bosnia-and-herzegovina',
+                    'groups/neherlab/ncov/bulgaria',
+                    'groups/neherlab/ncov/czech-republic',
+                    'groups/neherlab/ncov/denmark',
+                    'groups/neherlab/ncov/estonia',
+                    'groups/neherlab/ncov/finland',
+                    'groups/neherlab/ncov/france',
+                    'groups/neherlab/ncov/germany',
+                    'groups/neherlab/ncov/greece',
+                    'groups/neherlab/ncov/hungary',
+                    'groups/neherlab/ncov/iceland',
+                    'groups/neherlab/ncov/india',
+                    'groups/neherlab/ncov/ireland',
+                    'groups/neherlab/ncov/israel',
+                    'groups/neherlab/ncov/italy',
+                    'groups/neherlab/ncov/latvia',
+                    'groups/neherlab/ncov/lithuania',
+                    'groups/neherlab/ncov/luxembourg',
+                    'groups/neherlab/ncov/netherlands',
+                    'groups/neherlab/ncov/norway',
+                    'groups/neherlab/ncov/poland',
+                    'groups/neherlab/ncov/portugal',
+                    'groups/neherlab/ncov/romania',
                     'groups/neherlab/ncov/russia',
+                    'groups/neherlab/ncov/serbia',
+                    'groups/neherlab/ncov/slovakia',
+                    'groups/neherlab/ncov/slovenia',
+                    'groups/neherlab/ncov/spain',
+                    'groups/neherlab/ncov/sweden',
+                    'groups/neherlab/ncov/switzerland',
+                    'groups/neherlab/ncov/turkey',
+                    'groups/neherlab/ncov/united-kingdom',
                     'ncov/africa', 'ncov/asia', 'ncov/europe' , 'ncov/north-america', 'ncov/oceania', 'ncov/south-america']
-    # webpagePaths = ['community/aicbu/ncov/srilanka']
+    # webpagePaths = ['groups/neherlab/ncov/greece']
     datadir = 'C:/Dev/covid-19-genomes/'
 
     for eachPath in webpagePaths:
