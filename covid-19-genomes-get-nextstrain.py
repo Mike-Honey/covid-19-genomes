@@ -27,7 +27,7 @@ def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
 def processWebPage(webpageURL, datadir, driver, eachPath):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachPath)
-    eachPath_FileName = str.replace(str.replace(eachPath, '/', '_'), '@', '_' )
+    eachPath_FileName = str.replace(eachPath, '/', '_')
     for p in Path(datadir).glob('nextstrain*' + eachPath_FileName + '*.tsv'):
         p.unlink()
     driver.get(webpageURL + eachPath)
