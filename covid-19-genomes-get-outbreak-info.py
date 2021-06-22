@@ -58,9 +58,9 @@ def main():
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
 
     datadir = 'C:/Dev/covid-19-genomes/'
-    webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AV.1&selected=AY.1&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.1.318&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.617.3&selected=C.36.3&selected=C.37&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
-    webpageCountries = ['ARG', 'AUS', 'CAN', 'CHL', 'GBR', 'IDN', 'ISR', 'JPN', 'NZL', 'PER', 'SGP', 'USA', 'ZAF']
-    # webpageCountries = ['ARG']
+    webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AV.1&selected=AY.1&selected=AY.2&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.1.318&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.617.3&selected=C.36.3&selected=C.37&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
+    webpageCountries = ['ARG', 'AUS', 'CAN', 'CHE', 'CHL', 'DEU', 'GBR', 'IDN', 'IND', 'ISR', 'JPN', 'NPL', 'NZL', 'PER', 'POL', 'PRT', 'RUS', 'SGP', 'USA', 'ZAF']
+    # webpageCountries = ['POL']
 
     for eachCountry in webpageCountries:
         eachURL = str.replace(webpageURL, 'loc=ZZZ' , 'loc=' + eachCountry )
