@@ -67,7 +67,7 @@ def main():
                     'community/fai-k/coni/Thailand',
                     'community/kkosaki/ncov/japan',
                     'community/quipupe/Nextstrain_Argentina', 
-                    'community/quipupe/Nextstrain_Chile', 
+                    # 'community/quipupe/Nextstrain_Chile', 
                     'community/quipupe/Nextstrain_Ecuador', 
                     'community/quipupe/Nextstrain_Peru', 
                     'groups/neherlab/ncov/austria',
@@ -110,6 +110,12 @@ def main():
                     ]
     # webpagePaths = ['groups/spheres/ncov/USA']
     datadir = 'C:/Dev/covid-19-genomes/'
+
+    for eachPath in webpagePaths:
+        processWebPage(webpageURL, datadir, driver, eachPath)
+
+    webpageURL = 'https://auspice.cov2.cl/'
+    webpagePaths = ['ncov/chile-global']
 
     for eachPath in webpagePaths:
         processWebPage(webpageURL, datadir, driver, eachPath)
