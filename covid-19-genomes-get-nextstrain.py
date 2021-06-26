@@ -24,7 +24,7 @@ def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
             Timeout -= 1
     raise RuntimeError(f"Page loading timeout") 
 
-def processWebPage(webpageURL, datadir, driver, eachPath):
+def processWebPage(webpageURL, datadir, driver, eachPath, metadata_name):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachPath)
     eachPath_FileName = str.replace(eachPath, '/', '_')
@@ -40,7 +40,7 @@ def processWebPage(webpageURL, datadir, driver, eachPath):
     element = FindElem(driver, By.CSS_SELECTOR, "body")
     actions = ActionChains(driver)
     actions.move_to_element(element).perform()
-    element = FindElem(driver, By.NAME, "Metadata (TSV)")
+    element = FindElem(driver, By.NAME, metadata_name)
     element.click()
     time.sleep(5)
 
@@ -59,6 +59,8 @@ def main():
     chromeOptions.add_experimental_option("prefs",prefs)
     chromedriver = "C:/Dev/ChromeDriver/chromedriver.exe"
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
+
+    datadir = 'C:/Dev/covid-19-genomes/'
 
     webpageURL = 'https://nextstrain.org/'
     webpagePaths = ['community/aicbu/ncov/srilanka',
@@ -109,16 +111,24 @@ def main():
                     'ncov/africa', 'ncov/asia', 'ncov/europe' , 'ncov/north-america', 'ncov/oceania', 'ncov/south-america'
                     ]
     # webpagePaths = ['groups/spheres/ncov/USA']
-    datadir = 'C:/Dev/covid-19-genomes/'
+    metadata_name = "Metadata (TSV)"
 
     for eachPath in webpagePaths:
-        processWebPage(webpageURL, datadir, driver, eachPath)
+        processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
+
+    webpageURL = 'http://auspice.finlaymagui.re/'
+    webpagePaths = ['ncov/north-america/canada']
+    metadata_name = "All Metadata (TSV)"
+
+    for eachPath in webpagePaths:
+        processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
 
     webpageURL = 'https://auspice.cov2.cl/'
     webpagePaths = ['ncov/chile-global']
+    metadata_name = "Metadata (TSV)"
 
     for eachPath in webpagePaths:
-        processWebPage(webpageURL, datadir, driver, eachPath)
+        processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
 
     driver.quit()
 
