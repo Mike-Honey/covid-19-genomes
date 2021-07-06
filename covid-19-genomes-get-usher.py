@@ -11,7 +11,7 @@ def main():
     print (str(datetime.datetime.now()) + ' Starting ...')
     webpageURL = 'http://hgdownload.soe.ucsc.edu/goldenPath/wuhCor1/UShER_SARS-CoV-2//public-latest.metadata.tsv.gz'
     filename = 'public-latest.metadata.tsv'
-    datadir = 'C:/Dev/covid-19-genomes/usher/'
+    datadir = 'C:/Dev/covid-19-genomes/'
     
     # try:
     #     name, hdrs = urllib.request.urlretrieve(webpageURL, datadir + filename + '.gz')
