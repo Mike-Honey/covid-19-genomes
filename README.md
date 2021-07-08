@@ -1,5 +1,6 @@
 # covid-19-genomes
-Projects on topic of COVID-19 genomic sequencing - mostly DataViz. 
+DataViz Projects on topic of COVID-19 genomic sequencing. 
+
 Mostly showing Australia by default, other countries available for selection. 
 
 ## microreact.org
