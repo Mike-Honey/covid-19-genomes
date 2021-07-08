@@ -2,21 +2,37 @@
 Projects on topic of COVID-19 genomic sequencing - mostly DataViz. 
 Showing Australia by default, other countries available for selection. 
 
-[Link to interactive DataViz - microreact.org](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
+## microreact.org
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20microreact.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
 
-[Link to interactive DataViz - Nextstrain.org Emerging Lineages](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
+## Nextstrain.org Emerging Lineages
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20emerging.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
 
-[Link to interactive DataViz - Nextstrain.org PANGO Lineages](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
+## Nextstrain.org PANGO Lineages
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20PANGO.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
 
-[Link to interactive DataViz - outbreak.info](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection8e7ea6853e5ed0f5231f)
+## outbreak.info
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection8e7ea6853e5ed0f5231f)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20outbreak%20info.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection8e7ea6853e5ed0f5231f)
+
+## UCSC Genome Browser
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc014f15eb84e127c9216)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20ucsc.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc014f15eb84e127c9216)
+
+## cdgn.org.au
 
 [Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
 
@@ -26,7 +42,7 @@ Showing Australia by default, other countries available for selection.
 
 International data on COVID-19 genomic sequencing, for analysis and reporting on variant prevalence by country, region and even global.
 
-Data gathered from the [GISAID Initiative](https://www.gisaid.org), via: [nextstrain.org](https://nextstrain.org), [outbreak.info](https://outbreak.info) and [microreact.org](https://microreact.org). Australian-only data is added from [cdgn.org.au](https://cdgn.org.au).
+Global data gathered from [nextstrain.org](https://nextstrain.org), [outbreak.info](https://outbreak.info), [microreact.org](https://microreact.org) and [University of California Santa Cruz - Genome Browser](https://genome.ucsc.edu/index.html). Australian-only data is added from [cdgn.org.au](https://cdgn.org.au).
 
 A new source I've recently started collecting is [cdgn.org.au](https://www.cdgn.org.au/variants-of-concern) (Australia only). The data seems to only be updated weekly, but as most of the other sources available seem to lag by a week or more, this may be the best dataset for the latest picture. So far I've only gathered the last few weeks and a handful of earlier snapshots from archive.org. If anyone can help fill in the blanks it would be good.
 
@@ -38,11 +54,11 @@ The source sites presents data on genomic sequencing by country, with limited in
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
-A page is presented for each data source (microreact, nextstrain, outbreak.info and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. Nextstrain offers an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**, which is not recorded for ancestral lineages. These two attributes are presented on separate pages.
+A page is presented for each data source (microreact, nextstrain, outbreak.info, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. Nextstrain offers an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**, which is not recorded for ancestral lineages. These two attributes are presented on separate pages.
 
-The default selection for each page is Australia. As well as being where I live, genomic sequencing for Australia has a relatively high proportion of genomes sequenced vs total COVID-19 cases (as high as 60%).
+The default country selection for most pages is Australia. As well as being where I live, genomic sequencing for Australia has a relatively high proportion of genomes sequenced vs total COVID-19 cases (as high as 60%). 
 
-The user can choose any alternative country or continent, and filter the date range or Lineages included.
+The user can choose any alternative country, and also filter the date range or Lineages included.  It is possible to combine multiple countries, even all data for a continent or globally. However note that the sampling is most datasets is heavily skewed to a handful of countries.
 
 The primary visual on each page is a line chart showing the Lineage Frequency (calculated as a moving average over the prior 7 days, compared to all the other lineages present in the data (regardless of selections)). To keep the line charts clean, only the three most-frequently occuring Lineages are shown (dynamically determined).  
 
@@ -50,11 +66,13 @@ The gray inverted column chart below each line chart shows the counts of all gen
 
 An interactive table at the bottom right lists the individual observations presented by each dataset.
 
+From [microreact.org](https://microreact.org) we gather their "Global Distribution of SARS-CoV-2" dataset. This usually has more sequences than the other datasets, but typically lags behind them by a few days. 
+
 From [nextstrain.org](https://nextstrain.org), we gather the nextstrain-curated datasets (samples by continent). That is supplemented by [community datasets for selected countries](https://nextstrain.org/sars-cov-2#datasets).  The nextstrain datasets offer good coverage of a wide range of countries, and their community datasets typically offer more samples than other datasets, although sometimes they are not as up-to-date. [Raise an Issue](https://github.com/Mike-Honey/covid-19-genomes/issues) if you have another nextstrain community or group dataset, or auspice instance that you'd like included. 
 
 From [outbreak.info](https://outbreak.info) we gather selected countries of interest. Their data is typically the most up-to-date of all the sources.  [Raise an Issue](https://github.com/Mike-Honey/covid-19-genomes/issues) if you have another country you'd like included. 
 
-From [microreact.org](https://microreact.org) we gather their "Global Distribution of SARS-CoV-2" dataset. This usually has more sequences than the other datasets, but typically lags behind them by a few days. 
+From [University of California Santa Cruz - Genome Browser](https://genome.ucsc.edu/index.html) we gather their "SARS-CoV-2 genome browser" dataset. This typically has dense sampling of sequences for the USA and UK, but less for other countries. 
 
 The data to translate country codes into names is read from [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
