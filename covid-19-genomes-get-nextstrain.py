@@ -27,8 +27,8 @@ def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
 def processWebPage(webpageURL, datadir, driver, eachPath, metadata_name):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachPath)
-    eachPath_FileName = str.replace(eachPath, '/', '_')
-    for p in Path(datadir).glob('nextstrain*' + eachPath_FileName + '*.tsv'):
+    eachPath_FileName = str.replace(eachPath, '/', '*')
+    for p in Path(datadir).glob('nextstrain*' + eachPath_FileName + '*.*'):
         p.unlink()
     driver.get(webpageURL + eachPath)
     time.sleep(30)
@@ -130,7 +130,60 @@ def main():
     for eachPath in webpagePaths:
         processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
 
+    webpageURL = 'https://nextstrain.org/'
+    webpagePaths = [
+                    'community/kkosaki/ncov/japan',
+                    'community/quipupe/Nextstrain_Chile', 
+                    'groups/neherlab/ncov/austria',
+                    'groups/neherlab/ncov/belarus',
+                    'groups/neherlab/ncov/belgium',
+                    'groups/neherlab/ncov/bosnia-and-herzegovina',
+                    'groups/neherlab/ncov/bulgaria',
+                    'groups/neherlab/ncov/czech-republic',
+                    'groups/neherlab/ncov/denmark',
+                    'groups/neherlab/ncov/estonia',
+                    'groups/neherlab/ncov/finland',
+                    'groups/neherlab/ncov/france',
+                    'groups/neherlab/ncov/germany',
+                    'groups/neherlab/ncov/greece',
+                    'groups/neherlab/ncov/hungary',
+                    'groups/neherlab/ncov/iceland',
+                    'groups/neherlab/ncov/india',
+                    'groups/neherlab/ncov/ireland',
+                    'groups/neherlab/ncov/israel',
+                    'groups/neherlab/ncov/italy',
+                    'groups/neherlab/ncov/latvia',
+                    'groups/neherlab/ncov/lithuania',
+                    'groups/neherlab/ncov/luxembourg',
+                    'groups/neherlab/ncov/netherlands',
+                    'groups/neherlab/ncov/norway',
+                    'groups/neherlab/ncov/poland',
+                    'groups/neherlab/ncov/portugal',
+                    'groups/neherlab/ncov/romania',
+                    'groups/neherlab/ncov/russia',
+                    'groups/neherlab/ncov/serbia',
+                    'groups/neherlab/ncov/slovakia',
+                    'groups/neherlab/ncov/slovenia',
+                    'groups/neherlab/ncov/spain',
+                    'groups/neherlab/ncov/sweden',
+                    'groups/neherlab/ncov/switzerland',
+                    'groups/neherlab/ncov/turkey',
+                    'groups/neherlab/ncov/united-kingdom',
+                    'ncov/gisaid/africa', 
+                    'ncov/gisaid/asia', 
+                    'ncov/gisaid/europe' , 
+                    'ncov/gisaid/north-america', 
+                    'ncov/gisaid/oceania', 
+                    'ncov/gisaid/south-america'
+                    ]
+    # webpagePaths = ['groups/spheres/ncov/USA']
+    metadata_name = "TimeTree (Nexus)"
+
+    for eachPath in webpagePaths:
+        processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
+
     driver.quit()
+    print (str(datetime.datetime.now()) + ' Downloads complete')
 
     print (str(datetime.datetime.now()) + ' Finished!')
     exit()
