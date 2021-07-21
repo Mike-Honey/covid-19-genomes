@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import zipfile
 
 def FindElem(driver: webdriver, driver_by, selector: str, Timeout: int = 300):
     while Timeout > 0:
@@ -183,7 +184,19 @@ def main():
         processWebPage(webpageURL, datadir, driver, eachPath, metadata_name)
 
     driver.quit()
-    print (str(datetime.datetime.now()) + ' Downloads complete')
+    print (str(datetime.datetime.now()) + ' Downloads complete, zipping results ...')
+
+    zipfilename = 'nextstrain_ncov_metadata.zip'
+    for p in Path(datadir).glob(zipfilename):
+        p.unlink()
+    zipf = zipfile.ZipFile(datadir + zipfilename, 'w', zipfile.ZIP_DEFLATED)
+    for root, dirs, files in os.walk(datadir):
+        for file in files:
+            if file.startswith('nextstrain_') and ( file.endswith('.tsv') or file.endswith('.nexus')) :
+                zipf.write(os.path.join(root, file), 
+                        os.path.relpath(os.path.join(root, file), 
+                                        os.path.join(datadir, '..')))
+    zipf.close()
 
     print (str(datetime.datetime.now()) + ' Finished!')
     exit()
