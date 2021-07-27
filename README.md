@@ -55,7 +55,9 @@ The source sites presents data on genomic sequencing by country, with limited in
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
-A page is presented for each data source (microreact, nextstrain, outbreak.info, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. Nextstrain offers an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**, which is not recorded for ancestral lineages. These two attributes are presented on separate pages.
+A page is presented for each data source (microreact, nextstrain, outbreak.info, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. 
+
+Lineages are translated into the commonly known variant names (e.g. Delta) following the [WHO naming](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/). However for Nextstrain, their datasets offer an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**. These two attributes are presented on separate pages.
 
 The default country selection for most pages is Australia. As well as being where I live, genomic sequencing for Australia has a relatively high proportion of genomes sequenced vs total COVID-19 cases (as high as 60%). 
 
