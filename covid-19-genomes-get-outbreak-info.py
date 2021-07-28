@@ -29,7 +29,7 @@ def processWebPage(eachURL, datadir, driver, eachCountry):
 
     print (str(datetime.datetime.now()) + ' Processing:' + eachCountry)
     driver.get(eachURL)
-    time.sleep(30)
+    time.sleep(45)
     for p in Path(datadir).glob('outbreakinfo_mutation_report_data_' + eachCountry + '.tsv'):
         p.unlink()
     element = FindElem(driver, By.CSS_SELECTOR, "#location-report-prevalence #download-btn small")
@@ -61,7 +61,7 @@ def main():
     datadir = 'C:/Dev/covid-19-genomes/'
     webpageURL = 'https://outbreak.info/location-reports?loc=ZZZ&selected=S%3AE484K&selected=AV.1&selected=AY.1&selected=AY.2&selected=AY.3&selected=B.1.1.7&selected=B.1.1.7%20%2B%20S%3AE484K&selected=B.1.351&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.1.318&selected=B.1.427&selected=B.1.429&selected=B.1.525&selected=B.1.526&selected=B.1.526.1&selected=B.1.526.2&selected=B.1.617&selected=B.1.617.1&selected=B.1.617.2&selected=B.1.617.3&pango=B.1.619&selected=B.1.619&pango=B.1.620&selected=B.1.620&pango=B.1.621&selected=B.1.621&selected=C.36.3&selected=C.37&selected=P.1&selected=P.1.1&selected=P.1.2&selected=P.2&selected=P.3'
     webpageCountries = ['AGO', 'ARG', 'AUS', 'BGD', 'BWA', 'CAN', 'CHE', 'CHL', 'COL', 'DEU', 'GBR', 'IDN', 'IND', 'IRL', 'ISR', 'JPN', 'KOR', 'NPL', 'NZL', 'PER', 'POL', 'PRT', 'RUS', 'SGP', 'THA', 'UGA', 'USA', 'ZAF']
-    # webpageCountries = ['GBR']
+    # webpageCountries = ['USA', 'ZAF']
 
     for eachCountry in webpageCountries:
         eachURL = str.replace(webpageURL, 'loc=ZZZ' , 'loc=' + eachCountry )
