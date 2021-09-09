@@ -72,7 +72,7 @@ def main():
  
     webpageURL = 'https://nextstrain.org/'
     webpagePaths = ['community/aicbu/ncov/srilanka',
-                    'community/alghoribi-lab/ncov/gcc',
+                    # 'community/alghoribi-lab/ncov/gcc',
                     'community/CHRF-Genomics/ncovBangladesh@main',
                     'community/fai-k/coni/Thailand',
                     # 'community/kkosaki/ncov/japan',
