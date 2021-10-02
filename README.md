@@ -3,6 +3,12 @@ DataViz Projects on topic of COVID-19 genomic sequencing.
 
 Mostly showing Australia by default, other countries available for selection. 
 
+## gisaid.org
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionbd8582cc6a7cddb3c788)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionbd8582cc6a7cddb3c788)
+
 ## Nextstrain.org PANGO Lineages
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
@@ -63,6 +69,11 @@ The primary visual on each page is a line chart showing the Lineage Frequency (c
 The gray inverted column chart below each line chart shows the counts of all genomes sequenced over the same period.
 
 An interactive table at the bottom right lists the individual observations presented by each dataset.
+
+From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.
+
+Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
+
 
 From [microreact.org](https://microreact.org) we gather their "Global Distribution of SARS-CoV-2" dataset. This usually has more sequences than the other datasets, but typically lags behind them by a few days. 
 
