@@ -13,13 +13,13 @@ Mostly showing Australia by default, other countries available for selection.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionb37b79e3c5c90058cdc9)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20-%20 countries.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionb37b79e3c5c90058cdc9)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20-%20countries.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionb37b79e3c5c90058cdc9)
 
 ## gisaid.org - top Locations for a selected Lineage
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc12f96780ead40a571a8)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20-%20 locations.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc12f96780ead40a571a8)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20-%20locations.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc12f96780ead40a571a8)
 
 ## Nextstrain.org PANGO Lineages
 
@@ -62,13 +62,15 @@ A new source I've recently started collecting is [cdgn.org.au](https://www.cdgn.
 
 I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available.
 
+Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
+
 **Summary**
 
 The source sites presents data on genomic sequencing by country, with limited interactivity and often using overly complex visualisations.  Each site has its own visualisation style. They are each updated independently.
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
-A page is presented for each data source (microreact, nextstrain, outbreak.info, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. 
+A page is presented for each data source (gisaid microreact, nextstrain, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. 
 
 Lineages are translated into the commonly known variant names (e.g. Delta) following the [WHO naming](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/). However for Nextstrain, their datasets offer an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**. These two attributes are presented on separate pages.
 
