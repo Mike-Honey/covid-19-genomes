@@ -60,7 +60,7 @@ Global data gathered from [nextstrain.org](https://nextstrain.org), [microreact.
 
 A new source I've recently started collecting is [cdgn.org.au](https://www.cdgn.org.au/variants-of-concern) (Australia only). The data seems to only be updated weekly, but as most of the other sources available seem to lag by a week or more, this may be the best dataset for the latest picture.
 
-I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available.
+I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
 
 Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
 
