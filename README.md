@@ -70,6 +70,9 @@ I'm following the visualisation style I first saw presented by [Trevor Bedford](
 
 Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
 
+The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), similar to a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20).
+
+
 **Summary**
 
 The source sites presents data on genomic sequencing by country, with limited interactivity and often using overly complex visualisations.  Each site has its own visualisation style. They are each updated independently.
