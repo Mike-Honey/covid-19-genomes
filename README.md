@@ -58,7 +58,7 @@ Mostly showing Australia by default, other countries available for selection.
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20microreact.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
 
 
-**Reference:**
+## Reference:
 
 International data on COVID-19 genomic sequencing, for analysis and reporting on variant prevalence by country, region and even global.
 
@@ -70,10 +70,10 @@ I'm following the visualisation style I first saw presented by [Trevor Bedford](
 
 Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
 
-The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based to a chart produced by Alex Selby.
+The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based to a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20&t=MAjjMu7UC9MWuOUN0_cr1A).
 
 
-**Summary**
+## Summary
 
 The source sites presents data on genomic sequencing by country, with limited interactivity and often using overly complex visualisations.  Each site has its own visualisation style. They are each updated independently.
 
