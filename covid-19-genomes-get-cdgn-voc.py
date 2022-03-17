@@ -53,7 +53,8 @@ def processWebPageText(webpageURL, datadir, filename):
     # break multi-headlines into a line each
     chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
     # find chunk of interest
-    chunk_oi = '\n'.join(chunk for chunk in chunks if str(chunk).startswith('Date data was last updated'))
+    # chunk_oi = '\n'.join(chunk for chunk in chunks if str(chunk).startswith('Date data was last updated'))
+    chunk_oi = '\n'.join(chunk for chunk in chunks if str(chunk).startswith('Table shows sequence data'))
     text = chunk_oi.split('Global')[0]
 
     print(str(datetime.datetime.now()) + ' Found update date:' + text)
