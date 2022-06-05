@@ -13,7 +13,7 @@ def processWebPageTables(webpageURL, datadir, filename, table_instance, check_di
     print ( html_table_df )
 
     # strip unicode characters
-    html_table_cols = html_table_df.select_dtypes(include=[numpy.object]).columns.tolist()
+    html_table_cols = html_table_df.select_dtypes(include=[object]).columns.tolist()
     html_table_df[html_table_cols] = html_table_df[html_table_cols].apply(lambda x: x.str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8'))
     if sort_rows:
         html_table_df = html_table_df.sort_values(by=html_table_cols)
