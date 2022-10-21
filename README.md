@@ -27,6 +27,14 @@ Mostly showing Australia by default, other countries available for selection.
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20-%20lineage%20growth%20comparison%20log.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection3e99bf707c2b64e24b5d)
 
+## gisaid.org - archive
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid.png)](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+
+
+
 ## Nextstrain.org PANGO Lineages
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
@@ -72,6 +80,7 @@ Other pages presented include showing a single Lineage by Country or by Location
 
 The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based to a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20&t=MAjjMu7UC9MWuOUN0_cr1A).
 
+The main gisaid dataset only presents data for the last few months, to save processing time. The "gisaid - archive" dataviz presents all the historical data, but is only refreshed monthly.
 
 ## Summary
 
