@@ -31,7 +31,7 @@ Mostly showing Australia by default, other countries available for selection.
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
 
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20 archive.png)](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20gisaid%20archive.png)](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
 
 
 
