@@ -17,7 +17,7 @@ def main():
     for file in os.listdir(datadir + 'input'):
         filename = os.fsdecode(file)
         # process each input .fasta file, only if a matching output .tsv file does not exist.
-        if filename.endswith('.fasta') and not os.path.exists(str.replace(datadir + 'output' + filename, ".fasta", ".tsv")):
+        if filename.endswith('.fasta') and not os.path.exists(str.replace(datadir + 'output/' + filename, ".fasta", ".tsv")):
             nextclade_cmd = str.replace(nextclade_cmd_template, "[filename]", str.replace(filename,".fasta", ""))
             print (str(datetime.datetime.now()) + ' Calling: ' + nextclade_cmd)
             subprocess.call (nextclade_cmd, shell=True)
