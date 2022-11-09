@@ -3,6 +3,10 @@ DataViz Projects on topic of COVID-19 genomic sequencing.
 
 Mostly showing Australia by default, other countries available for selection. 
 
+Alternates of most pages are also available showing the nextlcade.org lineages, an alternative lineage classification tool. Look for (nextclade) in the page title, available from the page navigation at bottom-centre. Due to the data integration challenge of this method, the nextclade classifications are currently limited to:
+- Oceania, and selected countries in Asia
+- September 2022 onwards
+
 ## gisaid.org - top Lineages by Country/Location
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
@@ -106,6 +110,7 @@ From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. F
 
 Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
 
+From [nextclade](https://nextclade.org) we classify a subset of the gisaid samples to obtain the nextclade pango lineage (using the nextclade cli tool). These offer an alternative to the pango lineages presented by gisaid. Typically new lineages are defined first in nextclade, and are preferred by some experts.
 
 From [microreact.org](https://microreact.org) we gather their "Global Distribution of SARS-CoV-2" dataset. This usually has more sequences than the other datasets, but typically lags behind them by a few days. 
 
