@@ -33,7 +33,9 @@ Alternates of most pages are also available showing the nextlcade.org lineages, 
 
 ## gisaid.org - map
 
-Visualise the geographical spread of a selected lineage. Use the play control at bottom for an animated 
+Visualise the geographical spread of a selected lineage. Use the play control at bottom for an animated view of the spread.
+
+Locations are approximate - typically by reporting state/province or country. Bubble sizes are driven by the % of the total set of samples selected. 
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionb399287e8bb3b92f574b)
 
