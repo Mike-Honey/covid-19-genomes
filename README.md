@@ -40,9 +40,9 @@ Locations are approximate - typically by reporting state/province or country. Bu
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-map.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection4e23a9baa70904514a19)
 
 
-## gisaid.org with nextclade lineages - table
+## gisaid.org with nextclade lineages - weekly table
 
-Track the progress of a selected lineage for any combination of Continents and Countries. Shows the counts of that lineage vs the overall total, by week collected, also as a %. 
+Track the weekly progress of a selected lineage for any combination of Continents and Countries. Shows the counts of that lineage vs the overall total, by week collected, also as a %. 
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9d311250f30c3659d8ce)
 
