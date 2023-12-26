@@ -44,6 +44,8 @@ Locations are approximate - typically by reporting state/province or country. Bu
 
 Rolls up the evolutionary tree of lineages from the highest level ancestors (far left) to the most evolved descendants (far right). Each segment of a vertical column shows the counts of that lineage plus all it's descendants. Slicers for the range of Levels and Minimum # of Samples can be used to produce a more focussed output. 
 
+The rollup logic is a bit heavy, so please be patient with this page.
+
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection32240d6b62ba73667e98)
 
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-sankey.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection32240d6b62ba73667e98)
