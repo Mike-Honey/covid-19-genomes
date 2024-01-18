@@ -77,21 +77,21 @@ International data on COVID-19 genomic sequencing, for analysis and reporting on
 
 Global data gathered from [GISAID](https://gisaid.org). Sequence data is processed through the [Nextclade](https://nextclade.org) CLI to produce the generally preferred Nextclade Lineage classifications.
 
-I'm mainly following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
+I'm mainly following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 7 series in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
 
-Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
+Other pages presented include showing a single Lineage by Country or by Location.  The top 7 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
 
-The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based to a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20&t=MAjjMu7UC9MWuOUN0_cr1A).
+The Lineage growth comparison (log) page was suggested by [Uffe Poulsen](https://twitter.com/uffe1974/status/1485541093257134083?s=20), based on a chart produced by [Alex Selby](https://twitter.com/alexselby1770/status/1485286177104146432?s=20&t=MAjjMu7UC9MWuOUN0_cr1A).
 
-The main gisaid dataset only presents data for the last few months, to save processing time. The "gisaid - archive" dataviz presents all the historical data, but is only refreshed monthly.
+The main gisaid dataset only presents data for the last few months, to save processing time. It is typically refreshed weekly. The "gisaid - archive" dataviz presents all the historical data, but is only refreshed monthly at best.
 
 ## Summary
 
-The source sites presents data on genomic sequencing by country, with limited interactivity and often using overly complex visualisations.  Each site has its own visualisation style. They are each updated independently.
+The available sites presenting data on genomic sequencing are typically limited to country or global perspectives, with limited interactivity and often using overly complex visualisations.  Each site has its own visualisation style. They are each updated independently.
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
-A page is presented for each data source (gisaid microreact, nextstrain, UCSC and cdgn), and the gisaid data has alternate pages showing either the Nextclade lineage classifications, or GISAID's own lineage classifications.
+A page is presented for each data source (now only gisaid, but formerly also microreact, nextstrain, UCSC and cdgn), and the gisaid data has alternate pages showing either the Nextclade lineage classifications, or GISAID's own lineage classifications.
 
 Earlier lineages are translated into the commonly known variant names (e.g. Delta) following the [WHO naming](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/). More recent lineages are grouped into "clans", roughly following the work of the Variant Trackers group e.g. [T. Ryan Gregory](https://twitter.com/TRyanGregory). These are grouped using the field Lineage L2, for example the Lineage L2 "clan" BA.2.86.* includes the BA.2.86 lineage and all it's descendents. The Lineage L2 "clans" are mutually exclusive, so XBB.1.9.* excludes all of the EG.5.* lineages.
 
