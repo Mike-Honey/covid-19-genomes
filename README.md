@@ -70,46 +70,14 @@ Track the weekly progress of a selected lineage for any combination of Continent
 
 
 
-## Nextstrain.org PANGO Lineages
-
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20PANGO.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondcdcb000c3e8d08070c6)
-
-## Nextstrain.org Emerging Lineages
-
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20nextstrain%20emerging.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection693439c30c9bebd59531)
-
-## UCSC Genome Browser
-
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc014f15eb84e127c9216)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20ucsc.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc014f15eb84e127c9216)
-
-## cdgn.org.au
-
-[Link to interactive DataViz - cdgn.org.au Variants of Concern](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20cdgn.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection057102130a8cc001a462)
-
-## microreact.org
-
-[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
-
-[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Coronavirus%20-%20Genomic%20epidemiology%20-%20microreact.png)](https://app.powerbi.com/view?r=eyJrIjoiODVkYTI5ZjItMzgyZi00MWQwLWJmM2MtMTg2OGU0ZGIzZDkwIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection997d97b50e877049bbb3)
-
 
 ## Reference:
 
 International data on COVID-19 genomic sequencing, for analysis and reporting on variant prevalence by country, region and even global.
 
-Global data gathered from [nextstrain.org](https://nextstrain.org), [microreact.org](https://microreact.org) and [University of California Santa Cruz - Genome Browser](https://genome.ucsc.edu/index.html). Australian-only data is added from [cdgn.org.au](https://cdgn.org.au).
+Global data gathered from [GISAID](https://gisaid.org). Sequence data is processed through the [Nextclade](https://nextclade.org) CLI to produce the generally preferred Nextclade Lineage classifications.
 
-A new source I've recently started collecting is [cdgn.org.au](https://www.cdgn.org.au/variants-of-concern) (Australia only). The data seems to only be updated weekly, but as most of the other sources available seem to lag by a week or more, this may be the best dataset for the latest picture.
-
-I'm following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
+I'm mainly following the visualisation style I first saw presented by [Trevor Bedford](https://twitter.com/trvrb/status/1392132870064381956?s=20). The main feature are clean, simple line charts, filtered by default to the top 3 lineages in the selected data. For each chart point, the frequency of that lineage in the last 7 days is calculated, always comparing to all the sequencing data available for that country/location.
 
 Other pages presented include showing a single Lineage by Country or by Location.  The top 5 lineages in the selected Continent/Countries/Locations will be shown, with frequency calculated as above.
 
@@ -123,17 +91,17 @@ The source sites presents data on genomic sequencing by country, with limited in
 
 In this project, the data from those sources is presented in an interactive data visualisation tool: [Power BI](https://powerbi.microsoft.com). This allows interactive filtering of the data in the table, for easier analysis.
 
-A page is presented for each data source (gisaid microreact, nextstrain, UCSC and cdgn). I did not consider it valid to attempt to aggregate sequences across data sources. 
+A page is presented for each data source (gisaid microreact, nextstrain, UCSC and cdgn), and the gisaid data has alternate pages showing either the Nextclade lineage classifications, or GISAID's own lineage classifications.
 
-Lineages are translated into the commonly known variant names (e.g. Delta) following the [WHO naming](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/). However for Nextstrain, their datasets offer an attribute for both the original "PANGO Lineage" e.g. **B.1.617.2** and also "Emerging Lineage" e.g. **B.1.617.2 (Delta)**. These two attributes are presented on separate pages.
+Earlier lineages are translated into the commonly known variant names (e.g. Delta) following the [WHO naming](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/). More recent lineages are grouped into "clans", roughly following the work of the Variant Trackers group e.g. [T. Ryan Gregory](https://twitter.com/TRyanGregory). These are grouped using the field Lineage L2, for example the Lineage L2 "clan" BA.2.86.* includes the BA.2.86 lineage and all it's descendents. The Lineage L2 "clans" are mutually exclusive, so XBB.1.9.* excludes all of the EG.5.* lineages.
 
-The default country selection for most pages is Australia. As well as being where I live, genomic sequencing for Australia has a relatively high proportion of genomes sequenced vs total COVID-19 cases (as high as 60%). 
+The default country selection for most pages is Australia. As well as being where I live, genomic sequencing for Australia has a relatively high proportion of genomes sequenced vs total COVID-19 cases. 
 
 The user can choose any alternative country, and also filter the date range or Lineages included.  It is possible to combine multiple countries, even all data for a continent or globally. However note that the sampling is most datasets is heavily skewed to a handful of countries.
 
-The primary visual on each page is a line chart showing the Lineage Frequency (calculated as a moving average over the prior 7 days, compared to all the other lineages present in the data (regardless of selections)). To keep the line charts clean, only the three most-frequently occuring Lineages are shown (dynamically determined).  
+The primary visual on each page is a line chart showing the Lineage Frequency (calculated as a moving average over the prior 7 days, compared to all the other lineages present in the data (regardless of selections)). To keep the line charts clean, only the seven most-frequently occuring Lineages are shown (dynamically determined).  Alternate pages compare Countries or Locations for a selected Lineage, again typically showing the top seven.
 
-The gray inverted column chart below each line chart shows the counts of all genomes sequenced over the same period.
+The gray inverted column chart below each line chart shows the counts of all genomes sequenced over the same period.  A typical pattern is that the sample volume drops for more recent 
 
 An interactive table at the bottom right lists the individual observations presented by each dataset.
 
@@ -141,15 +109,7 @@ From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. F
 
 Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
 
-From [nextclade](https://nextclade.org) we classify a subset of the gisaid samples to obtain the nextclade pango lineage (using the nextclade cli tool). These offer an alternative to the pango lineages presented by gisaid. Typically new lineages are defined first in nextclade, and are preferred by some experts.
-
-From [microreact.org](https://microreact.org) we gather their "Global Distribution of SARS-CoV-2" dataset. This usually has more sequences than the other datasets, but typically lags behind them by a few days. 
-
-From [nextstrain.org](https://nextstrain.org), we gather the nextstrain-curated datasets (samples by continent). That is supplemented by [community datasets for selected countries](https://nextstrain.org/sars-cov-2#datasets).  The nextstrain datasets offer good coverage of a wide range of countries, and their community datasets typically offer more samples than other datasets, although sometimes they are not as up-to-date. [Raise an Issue](https://github.com/Mike-Honey/covid-19-genomes/issues) if you have another nextstrain community or group dataset, or auspice instance that you'd like included. 
-
-From [University of California Santa Cruz - Genome Browser](https://genome.ucsc.edu/index.html) we gather their "SARS-CoV-2 genome browser" dataset. This typically has dense sampling of sequences for the USA and UK, but less for other countries. 
-
-The data to translate country codes into names is read from [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
+From [nextclade](https://nextclade.org) we classify the gisaid samples to obtain the nextclade pango lineage (using the nextclade cli tool). These offer an alternative to the pango lineages presented by gisaid. Typically new lineages are defined first in nextclade, and are preferred by some experts.
 
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
