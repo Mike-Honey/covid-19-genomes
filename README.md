@@ -109,7 +109,13 @@ From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. F
 
 Elbe, S., and Buckland-Merrett, G. (2017) Data, disease and diplomacy: GISAID’s innovative contribution to global health. Global Challenges, 1:33-46. DOI:10.1002/gch2.1018  PMCID: 31565258
 
-From [nextclade](https://nextclade.org) we classify the gisaid samples to obtain the nextclade pango lineage (using the nextclade cli tool). These offer an alternative to the pango lineages presented by gisaid. Typically new lineages are defined first in nextclade, and are preferred by some experts.
+From [nextclade](https://nextclade.org) we classify the gisaid samples to obtain the nextclade pango lineage (using the nextclade cli tool). These offer an alternative to the pango lineages presented by gisaid. Typically new lineages are defined first in nextclade, and it's lineage calls are preferred by most experts.
+
+## Reports
+
+A set of reports has been developed to provide consistent analysis over a set of countries and regions, and at the global level. The output from each report is produced in PDF form - you can access the files from the **output** folder. They are typically updated each week, and a history of each report is available.
+
+[Report output folder](https://github.com/Mike-Honey/covid-19-genomes/tree/main/output)
 
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
