@@ -62,6 +62,28 @@ Track the weekly progress of a selected lineage for any combination of Continent
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-table.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9d311250f30c3659d8ce)
 
 
+## gisaid.org with nextclade lineages - matrix of Countries (additional info)
+
+Analyse the International Traveller samples, by Country from the additional info metadata fields. The US and Japan collect the most data of this type.
+
+This can provide insight into undersampled countries. Columns show Lineage L2, but can be drilled down to individual lineages. 
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2cbb71a9d82a274112c0)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-countries-additional-info.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2cbb71a9d82a274112c0)
+
+
+## gisaid.org with nextclade lineages L2 - by Country (additional info)
+
+Analyse the International Traveller samples, by Country from the additional info metadata fields. The US and Japan collect the most data of this type.
+
+This can provide insight into undersampled countries. The chart shows Lineage L2 samples for a selected Country. 
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=d1fd3228790dd8c61a5f)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-L2-countries-additional-info.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=d1fd3228790dd8c61a5f)
+
+
 ## gisaid.org - archive
 
 [Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiY2M1OTdiODktZWVmMy00NDliLWI4MWEtMTIzNWI1OGI5ZmJmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
