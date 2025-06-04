@@ -62,6 +62,15 @@ Track the weekly progress of a selected lineage for any combination of Continent
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-table.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9d311250f30c3659d8ce)
 
 
+## gisaid.org with nextclade lineages - International Travellers
+
+Analyse the International Traveller samples, by Nexclade Lineage L2. The US and Japan collect the most data of this type, and it is probably a more random sample than the aggregate of all samples in GISAID (dominated recently by the US and Canada).
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=1ed3be82471600eefffe)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-international-travellers.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=1ed3be82471600eefffe)
+
+
 ## gisaid.org with nextclade lineages - matrix of Countries (additional info)
 
 Analyse the International Traveller samples, by Country from the additional info metadata fields. The US and Japan collect the most data of this type.
