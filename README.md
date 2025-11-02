@@ -151,6 +151,8 @@ A set of reports has been developed to provide consistent analysis over a set of
 
 THIS REPORT IS NOT HEALTH ADVICE - REFER TO YOUR LOCAL HEALTH AUTHORITY.
 
+[![Developed by a Human, not by AI. Click for more info](https://github.com/Mike-Honey/covid-19-genomes/raw/main/Developed-By-a-Human-Not-By-AI-Badge-white@2x.png)](https://notbyai.fyi)
+
 ## 🤝 Support
 
 Contributions, issues, feature requests and sponsorship are all welcome!
