@@ -80,19 +80,19 @@ I also included a Patient age range slicer (2).
 
 There’s a "Lineage hierarchy" slicer (3) to let you switch between showing my "Lineage L2" groups (e.g. XFG.*) and the detailed Lineages eg RT.2.  In either case, the chart only shows the top 6 values, so you would probably use this in combination with a filtered set of Lineages.
 
-[![Slicers on the by Age page](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-slicers.png)]
+![Slicers on the by Age page](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-slicers.png)
 
 Hovering over the chart segments will show a tooltip with the details, including sample counts and precise % values.
 
 It also offers the option to "Drill down", which drops you down one level deeper into the Patient age hierarchy (Group > Year > Patient age), filtered for the column you were hovering over.
 
-[![Tooltip example from the by Age chart](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)]
+![Tooltip example from the by Age chart](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)
 
 You can also "Drill down" or "Go to the next level" (without filtering) using the buttons at the top-right of the chart’s frame. They appear when you hover over the chart.
 
 The first button is "Drill up" which takes you back up the hierarchy.
 
-[![Buttons that appear at the top-right of the chart frame](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)]
+![Buttons that appear at the top-right of the chart frame](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)
 
 
 ## gisaid.org with nextclade lineages - International Travellers
