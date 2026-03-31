@@ -92,7 +92,7 @@ You can also "Drill down" or "Go to the next level" (without filtering) using th
 
 The first button is "Drill up" which takes you back up the hierarchy.
 
-![Buttons that appear at the top-right of the chart frame](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)
+![Buttons that appear at the top-right of the chart frame](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-buttons.png)
 
 
 ## gisaid.org with nextclade lineages - International Travellers
