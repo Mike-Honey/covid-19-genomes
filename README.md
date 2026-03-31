@@ -62,6 +62,39 @@ Track the weekly progress of a selected lineage for any combination of Continent
 [![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-table.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection9d311250f30c3659d8ce)
 
 
+## gisaid.org with nextclade lineages - by Age
+
+Compare the frequency of lineages by Patient Age - Groups (with drill down to Patient age - Years and the raw Patient age data). 
+
+[Link to interactive DataViz](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2d96e9f9feabdbec3443)
+
+[![Click to view and interact with the report](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age.png)](https://app.powerbi.com/view?r=eyJrIjoiNzE5YzczODItMDQzMS00M2EzLWFjNWYtMjg3OTY3NTNhZDM3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D&pageName=2d96e9f9feabdbec3443)
+
+As usual, you can start by choosing the country or region of interest and optionally adjusting the date range and lineage selections to suit.
+
+Many countries or regions do not provide Patient age data at all, in which case you will get a blank chart.
+
+The Patient age slicer (1) lets you choose any combination of the 3 levels I described above. By default I am excluding "Unspecified", which are samples where there was no data, or I could not assign an age.
+
+I also included a Patient age range slicer (2).
+
+There’s a "Lineage hierarchy" slicer (3) to let you switch between showing my "Lineage L2" groups (e.g. XFG.*) and the detailed Lineages eg RT.2.  In either case, the chart only shows the top 6 values, so you would probably use this in combination with a filtered set of Lineages.
+
+[![Slicers on the by Age page](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-slicers.png)]
+
+Hovering over the chart segments will show a tooltip with the details, including sample counts and precise % values.
+
+It also offers the option to "Drill down", which drops you down one level deeper into the Patient age hierarchy (Group > Year > Patient age), filtered for the column you were hovering over.
+
+[![Tooltip example from the by Age chart](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)]
+
+You can also "Drill down" or "Go to the next level" (without filtering) using the buttons at the top-right of the chart’s frame. They appear when you hover over the chart.
+
+The first button is "Drill up" which takes you back up the hierarchy.
+
+[![Buttons that appear at the top-right of the chart frame](https://github.com/Mike-Honey/covid-19-genomes/raw/main/covid-19-genomes-age-tooltip.png)]
+
+
 ## gisaid.org with nextclade lineages - International Travellers
 
 Analyse the International Traveller samples, by Nexclade Lineage L2. The US and Japan collect the most data of this type, and it is probably a more random sample than the aggregate of all samples in GISAID (dominated recently by the US and Canada).
@@ -135,6 +168,11 @@ The primary visual on each page is a line chart showing the Lineage Frequency (c
 The gray inverted column chart below each line chart shows the counts of all genomes sequenced over the same period.  A typical pattern is that the sample volume drops for more recent 
 
 An interactive table at the bottom right lists the individual observations presented by each dataset.
+
+For those with accessibility needs, I encourage you to use the interactive dataviz pages that I present for every project. The Power BI tool I use has many accessibility features built in. You can press Shift + ? to show keyboard shortcuts, and use keyboard navigation. This includes accessible data tables.
+
+[Consume Power BI reports by using accessibility features](https://learn.microsoft.com/en-us/power-bi/explore-reports/desktop-accessibility-consuming-tools)
+
 
 From [gisaid.org](https://gisaid.org) we gather their EpiCoV metadata dataset. For most countries, this dataset is the most complete and up-to-date available.
 
